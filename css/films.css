@@ -1,0 +1,88 @@
+:root{
+  
+    --blanco: #FFFFFF;
+  
+
+
+}
+
+/*.main{
+    margin: 0 auto;
+    padding: 0 20px;
+}*/
+.slick-list{
+    overflow: inherit;
+}
+@media(min-width:1300px){
+    .main{
+        max-width: 1600px;
+    }
+}
+
+.container-general{
+    margin-top: 1.3rem;
+    overflow: hidden;
+}
+@media(min-width:1300px){
+    .movies-rows{
+        max-width: 1600px;
+        margin: 0 auto;
+    }
+}
+
+.movies-rows{
+    margin: 0 auto;
+    padding: 0 1.3rem;
+
+}
+.list-title{
+    color: var(--blanco);
+    font-weight:400 ;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    position: relative;
+}
+.slider div img{
+    border-radius: 0.4rem;
+    width: 100%;
+    height: auto;
+    
+}
+.slider h3{
+    border-radius: 0.3rem;
+    position: relative;
+    text-align: center;
+
+}
+.card{
+    border-radius: 0.3rem;
+    display: flex !important;
+    position: relative;
+    box-shadow: rgb(0 0 0 ) 0px 16px 10px -10px;
+    transition-duration: 300ms;
+    transition-timing-function: ease-out;
+}
+.card::before{
+    content: "";
+    border-radius: 0.4rem;
+    border: 0.2rem solid rgba(255, 255, 255, 0);
+    inset: 0px;
+    position: absolute;
+    z-index: 1;
+    transition: border 300ms ease-out 0s;
+  
+}
+.card:hover::before{
+    border: 0.2rem solid rgba(249, 249, 249, 0.8);
+}
+.card:hover, 
+.card img:hover{
+    transform: scale(1.05, 1.05) translateZ(0px) translate3d(0px, 0px, 0px);
+    transition-duration: 300ms;
+    transition-property: transform, box-shadow;
+    transition-timing-function: ease-out;
+    box-shadow: rgb(0 0 0 /90%) 0px 30px 20px -10px;
+ }
+.responsive div{
+    margin-right: 0.2rem;
+}
