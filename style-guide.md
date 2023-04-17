@@ -1,6 +1,3 @@
-## Challengue Created by Diego Bazan ##
-- My Channel Youtube = [https://www.youtube.com/channel/UCrFEPdOG-jja3W0B13k4_8A]
-- My Github = [https://github.com/DiegoBazanParra]
 
 ## Icons FontAwesome:
 - Link: [https://pro.fontawesome.com/releases/v5.10.0/css/all.css];
